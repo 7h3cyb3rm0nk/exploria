@@ -26,6 +26,7 @@ main {
     background: url("./images/bg-sm.png");
     background-size:cover;
     flex-direction: column;
+    padding-top: 4em;
     
 
     
@@ -33,11 +34,12 @@ main {
 
 .logo {
     margin: 0 auto;
-    padding-top: 4em;
+    margin-top: 3em;
+   
 }
 .headerText {
     position: relative;
-    top:6em;
+    top:1em;
     width:85%;
     text-align:center;
     margin: 0 auto;
