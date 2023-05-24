@@ -24,7 +24,7 @@ body {
 img {
     width: 100vw;
     -webkit-animation: 3s ease-in-out 1s scale-sm forwards;
-    animation: 3s ease-in-out 1s scale-md forwards;
+    animation: 3s ease-in-out 1s scale-sm forwards;
 
 }
 main {
