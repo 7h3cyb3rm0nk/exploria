@@ -78,6 +78,20 @@ a:hover {
 
     }
     img {
-        width:50vw;
+        width:65vw;
+        
     }
+
+    .logo {
+        margin-top:6em;
+    }
+    .headerText {
+        font-size: 2em;
+    }
+    .links {
+        margin-top:.5em;
+        gap: 4em;
+        justify-content:center;
+    }
+    
 }
