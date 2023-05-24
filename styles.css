@@ -81,10 +81,10 @@ a:hover {
 }
 
 @media  (min-width:500px){
-    main {
+    main, body {
         background: url("./images/bg.png");
         background-size:cover;
-        height:100vh;
+        min-height:100vh;
         
     }
     .links {
@@ -95,7 +95,8 @@ a:hover {
 
     }
     img {
-        width:30vw; 
+        width:30vw;
+         margin-top:2em;
         transform: none;
         align-self: center;
         transform: scale(2.4);
@@ -112,7 +113,7 @@ a:hover {
     }
 
     .logo {
-        margin-top:2em;
+        margin-top: 5em;
         display:flex;
         flex-direction:column;
         
