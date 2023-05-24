@@ -52,6 +52,7 @@ main {
 .logo {
     margin: 0 auto;
     margin-top: 3em;
+    overflow:hidden;
    
 }
 .headerText {
@@ -115,24 +116,26 @@ a:hover {
     .logo {
         margin-top: 5em;
         display:flex;
+        height: 50vh;
         flex-direction:column;
-        
+        overflow:hidden;
+        z-index:0
 }
     
     .headerText {
         font-size: 2em;
         text-align:center;
         margin:0 auto;
-        top:1.5em;
+        top:.1em;
     }
     .links {
-        margin-top:.5em;
+        margin-top:1em;
         gap: 4em;
         justify-content:center;
     }
     
     .link {
         color:rgb(199, 197, 197);
-        z-index:3
+        z-index:2
     }
 }
