@@ -6,7 +6,7 @@
 
 @font-face{
     font-family: VeniceSerif;
-    src: url("./VeniceSerif-Regular.otf") format("opentype");
+    src: url("../fonts/VeniceSerif-Regular.otf") format("opentype");
 }
 body {
     font-family: VeniceSerif;
@@ -30,7 +30,7 @@ img {
 main {
     height:100vh;
     display:flex;
-    background: url("./images/bg-sm.png");
+    background: url("../images/bg-sm.png");
     background-size:cover;
     flex-direction: column;
     padding-top: 4em;
@@ -73,7 +73,7 @@ a:hover {
 
 @media  (min-width:500px){
     main, body {
-        background: url("./images/bg.png");
+        background: url("../images/bg.png");
         background-size:cover;
         min-height:100vh;
         
